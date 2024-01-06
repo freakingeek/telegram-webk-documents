@@ -7,6 +7,7 @@ const withNextra = require("nextra")({
 const nextConfig = {
   output: "export",
   reactStrictMode: true,
+  basePath: process.env.NODE_ENV === 'production' ? '/telegram-webk-documents' : '',
   images: {
     unoptimized: true,
   },
