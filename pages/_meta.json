@@ -1,3 +1,21 @@
 {
-    "index": "Introduction"
+    "index": {
+      "type": "page",
+      "title": "Telegram WebK Docs",
+      "display": "hidden",
+      "theme": {
+        "layout": "full"
+      }
+    },
+    "docs": {
+      "title": "Docs",
+      "type": "page"
+    },
+    "404": {
+      "type": "page",
+      "theme": {
+        "timestamp": false,
+        "typesetting": "article"
+      }
+    }
   }
